@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Headline Color Changer",
+    "version": "1.0",
+    "description": "Changes the color of all headlines on a web page",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }]
+}
